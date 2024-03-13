@@ -34,7 +34,15 @@ class MyApp extends StatelessWidget {
                     width: 100
                     ),
                     Text('INFO HOME', style:  TextStyle(color: Color.fromARGB(180, 135, 182, 212),fontSize: 24, decoration:  TextDecoration.none)),
-                    Text('Soluções em IoT', style:  TextStyle(color: Color.fromARGB(180, 135, 182, 212),fontSize: 15, decoration:  TextDecoration.none),)
+                    Text('Soluções em IoT', style:  TextStyle(color: Color.fromARGB(180, 135, 182, 212),fontSize: 15, decoration:  TextDecoration.none),),
+                    Center(child:  Row(
+                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                       crossAxisAlignment: CrossAxisAlignment.center,
+                       children: [
+                           Text('Login', style:  TextStyle(color: Color.fromARGB(180, 34, 164, 245),fontSize: 24, decoration:  TextDecoration.none)),
+                           Text('Cadastrar', style:  TextStyle(color: Color.fromARGB(180, 34, 164, 245),fontSize: 15, decoration:  TextDecoration.none),),
+                       ],
+                    ))
                     ]
                     ),
                   )
